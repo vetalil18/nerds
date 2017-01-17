@@ -20,7 +20,7 @@
 				<ul class="main-menu__items">
 					<li class="main-menu__item"><a href="#">Студия</a></li>
 					<li class="main-menu__item"><a href="#">Клиенты</a></li>
-					<li class="main-menu__item"><a href="#">Магазин</a></li>
+					<li class="main-menu__item main-menu__item-active"><a href="#">Магазин</a></li>
 					<li class="main-menu__item"><a href="#">Контакты</a></li>
 				</ul>
 			</nav>
@@ -34,7 +34,7 @@
 			<h3 class="welcome__page">Добро пожаловать в магазин<br> готовых макетов</h3>
 		</div>
 	</section>
-	<main class="container catalog-main">
+	<main class="container catalog-main clearfix">
 		<form action="#" method="post" class="catalog__form">
 			<h3 class="catalog__form-title">Стоимость:</h3>
 			<div class="filter-slider">
@@ -73,14 +73,81 @@
 
 			<button type="submit" class="catalog-form__submit">Показать</button>
 		</form>
-		<div class="sort">
-			
+		<div class="catalog-right">
+			<div class="filter-bar">
+				<b class="filter-bar__title">Сортировать</b>
+				<a href="#" class="filter-bar__cost">По цене</a>
+				<a href="#" class="filter-bar__type">По типу</a>
+				<a href="#" class="filter-bar__function">По функционалу</a>
+				<div class="icon-dirs">
+					<a href="#" class="icon-dir icon-down-dir icon-dir--active"></a>
+					<a href="#" class="icon-dir icon-up-dir"></a>
+				</div>
+			</div>
+			<div class="filter__content">
+				<div class="fitler__content-item">
+					<div class="fitler__content-item-dec"></div>
+					<img src="../img/fitler__content-item-1.jpg" alt="content-item-1" width="240" height="240">
+					<div class="fitler__content-item-sticker">
+						<h2 class="fitler__content-item-sticker-header">Aviator</h2>
+						<p class="fitler__content-item-sticker-desc">Одностраничный макет с авторским дизайном</p>
+						<a href="#" class="fitler__content-item-sticker-cost">8000 р.</a>
+					</div>
+				</div>
+				<div class="fitler__content-item">
+				<div class="fitler__content-item-dec"></div>
+					<img src="../img/fitler__content-item-2.jpg" alt="content-item-2" width="240" height="240">
+					<div class="fitler__content-item-sticker">
+						<h2 class="fitler__content-item-sticker-header">Sunset</h2>
+						<p class="fitler__content-item-sticker-desc">Интернет-магазин с личным кабинетом</p>
+						<a href="#" class="fitler__content-item-sticker-cost">10000 р.</a>
+					</div>
+				</div>
+				<div class="fitler__content-item">
+				<div class="fitler__content-item-dec"></div>
+					<img src="../img/fitler__content-item-3.jpg" alt="content-item-3" width="240" height="240">
+					<div class="fitler__content-item-sticker">
+						<h2 class="fitler__content-item-sticker-header">Forte</h2>
+						<p class="fitler__content-item-sticker-desc">Отличный макет для личного блога</p>
+						<a href="#" class="fitler__content-item-sticker-cost">5000 р.</a>
+					</div>
+				</div>
+				<div class="fitler__content-item">
+				<div class="fitler__content-item-dec"></div>
+					<img src="../img/fitler__content-item-4.jpg" alt="content-item-4" width="240" height="240">
+					<div class="fitler__content-item-sticker">
+						<h2 class="fitler__content-item-sticker-header">Modern organic</h2>
+						<p class="fitler__content-item-sticker-desc">Сайт дл яресторана быстрого питания</p>
+						<a href="#" class="fitler__content-item-sticker-cost">12000 р.</a>
+					</div>
+				</div>
+				<div class="fitler__content-item">
+				<div class="fitler__content-item-dec"></div>
+					<img src="../img/fitler__content-item-5.jpg" alt="content-item-5" width="240" height="240">
+					<div class="fitler__content-item-sticker">
+						<h2 class="fitler__content-item-sticker-header">Avenue</h2>
+						<p class="fitler__content-item-sticker-desc">Макет для блога о путишествиях</p>
+						<a href="#" class="fitler__content-item-sticker-cost">8000 р.</a>
+					</div>
+				</div>
+				<div class="fitler__content-item">
+					<div class="fitler__content-item-dec"></div>
+					<img src="../img/fitler__content-item-6.jpg" alt="content-item-6" width="240" height="240">
+					<div class="fitler__content-item-sticker">
+						<h2 class="fitler__content-item-sticker-header">Dovetail</h2>
+						<p class="fitler__content-item-sticker-desc">Интернет-магазин с галереей товаров</p>
+						<a href="#" class="fitler__content-item-sticker-cost">14000 р.</a>
+					</div>
+				</div>
+			</div>
+			<div class="bread-crumps">
+				<a href="#" class="bread-crump bread-crump-active">1</a>
+				<a href="#" class="bread-crump">2</a>
+				<a href="#" class="bread-crump">3</a>
+				<a href="#" class="bread-crump bread-crump-next">Следующая</a>
 		</div>
-
-
-
-
-
+		</div>
+		
 	</main>
 	<section class="map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96677.32737837094!2d30.48137074642299!3d50.45063560610165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LI!5e0!3m2!1suk!2sua!4v1484579397190" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
