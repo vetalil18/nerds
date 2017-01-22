@@ -1,13 +1,13 @@
-
 html, body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 	color: black;
+	font-weight: 600;
+	
 }
 .container {
 	width: 880px;
-
 	margin: 0px auto;
 }
 .clearfix::after {
@@ -19,6 +19,7 @@ html, body {
 .page-header {
 	padding-top: 25px;
 	background-color: #eeeeee; 
+
 }
 .page-header__logo {
 	float: left;
@@ -94,6 +95,7 @@ html, body {
 }
 .page-header__card a:hover .icon-basket {
 	opacity: 1;
+	o
 }
 .main-menu a:active {
 	color: black;
@@ -1029,4 +1031,110 @@ a[class^="future-item__btn"] {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 22px;
+}
+
+
+
+
+.popup {
+	display: none;
+	position: fixed;
+	bottom: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 630px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 50px 80px;
+	background-color: #fff;
+	box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+}
+.popup__btn {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	display: block;
+	width: 41px;
+	height: 41px;
+	border-radius: 50%;
+	background-color: #fb565a;
+}
+.popup__btn::before,
+.popup__btn::after {
+	content: '';
+	position: absolute;
+	top: 19px;
+	left: 10px;;
+	width: 20px;
+	height: 4px;
+	background-color: #fff;
+}
+.popup__btn::before {
+	transform: rotate(-45deg);
+}
+.popup__btn::after {
+ transform: rotate(45deg);
+}
+.popup__label {
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+.popup__section {
+	float: left;
+	margin-bottom: 20px;
+}
+
+.popup__text {
+	width: 220px;
+	background: none;
+	border: none;
+	outline: none;
+	border: 2px solid #d7dcde;
+	border-radius: 4px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+}
+.popup__section:first-child {
+	margin-right: 30px;
+}
+::-webkit-input-placeholder {
+   color: black;
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+text-transform: uppercase;
+}
+
+.popup__text-tarea {
+	width: 100%;
+	height: 115px;
+}
+
+.pupup__btn-submit {
+	display: block;
+	margin-top: 50px;
+	background-color: #fb565a;
+	color: white;
+	font-family: "Roboto";
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 18px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.btn__hover:active {
+	background-color: #b63538;
+	box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.15);
+}
+.modal-content-show {
+	display: block;
 }
